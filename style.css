@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --nutmeg: hsl(14, 45%, 36%);
+--dark-raspberry: hsl(332, 51%, 32%);
+
+--White: hsl(0, 0%, 100%);
+--Rose-White: hsl(330, 100%, 98%);
+--Eggshell: hsl(30, 54%, 90%);
+--Light-Grey: hsl(30, 18%, 87%);
+--Wenge-Brown: hsl(30, 10%, 34%);
+--Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+body{
+    background-color: var(--Eggshell);
+    color: var(--Wenge-Brown);
+    min-height: 100vh;
+    font-family: 'Outfit','sans-sarif';
+    line-height: 1.4;
+    display: grid;
+    place-content:centre;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    background-color: var(--White);
+    margin: 2rem;
+    border-radius: 1rem;
+}
+.omelette-recipe{
+    padding: 0 3rem;
+    
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 1rem;
+}
+.recipe-img{
+    padding: 2rem;   
+}
+h1,h2{
+    font-family: 'Young Serif',serif;
+    font-weight: 600;
+}
+h1{
+    color: var(--Dark-Charcoal);
+    font-size: 2.8rem;
+}
+.description{
+    color: var(--Wenge-Brown);
+}
+.prep-time{
+    background-color: var(--Rose-White);
+    padding: 1.25rem;
+    border-radius: 1rem;
+}
+h3{
+    color: var(--dark-raspberry);
+    margin-bottom: .75rem;
+}
+.prep-time ul li::marker{
+    color: var(--dark-raspberry);
+}
+.prep-time ul{
+    padding-left: 2rem;
+}
+.prep-time span{
+    color: var(--Dark-Charcoal);
+    font-weight: 800;
+}
+.prep-time ul li{
+    padding-left: 2rem;
+}
+.ingrediants{
+   margin: 1.10rem;
+}
+.ingrediants h2{
+    color: var(--nutmeg);
+    margin-bottom: 1rem;
+}
+.ingrediants ul li::marker{
+    color: var(--nutmeg);
+}
+.ingrediants ul{
+    padding-left: 2rem;
+}
+.ingrediants ul li{
+    padding-left: 1rem;
+}
+.instruction{
+    margin: 1.10rem;
+}
+.instruction h2{
+    color: var(--nutmeg);
+    margin-bottom: 1rem;
+}
+.instruction .item{
+    display: flex;
+}
+.num{
+    color: var(--nutmeg);
+    font-weight: 600;
+    padding-left: 1rem;
+}
+.instruction span{
+    color: var(--Dark-Charcoal);
+    font-weight: 800;
+}
+.instruction p{
+    padding-left: 1rem;
+}
+.nutrition{
+    margin: 1.10rem;
+}
+.nutrition h2{
+    color: var(--nutmeg);
+    margin-bottom: 1rem; 
+}
+.nutrition .values{
+    padding-bottom: 1rem;
+}
+.nutrition-table .item{
+    display: flex;
+}
+.nutrition-table .item p:nth-child(2)
+{
+    color: var(--nutmeg);
+    font-weight: 700;
+}
+.nutrition-table .item > *{
+    width: 100px;
+    margin-right: auto;
+}
+
+
